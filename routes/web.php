@@ -50,3 +50,7 @@ Route::get('/profile', function () {
 Route::get('/', [DashboardController::class , 'index']);
 
 Route::get('/profile', [ProfileController::class , 'index']);
+
+Route::get('/terms', function(){
+    return view('terms');
+});
