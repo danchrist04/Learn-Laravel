@@ -35,11 +35,7 @@ class DashboardController extends Controller
         );
         */
 
-        $idea = new Idea([
-            'content' => 'hello youtube',
-            'likes' => 0,
-        ]);
-        $idea->save();
+        
 
         // dump($idea::all());
 
